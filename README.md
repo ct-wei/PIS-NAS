@@ -1,4 +1,4 @@
-# PIS-NAS
+# PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection
 
 ## Introduction
 This repository is the official implementation  of "PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection". 
@@ -33,7 +33,7 @@ If you find this useful, please support us by citing them.
 ```
 @inproceedings{,
 	title = {PIS-NAS: Pyramid Information System Based Neural Architecture Search for Object Detection},
-	author = {},
+	author = {Wei, Chentian and Li, Ao and Pu, Lei and Dong, Le and Dong, Weisheng},
 	booktitle = {},
 	year = {},
 	url = {}
