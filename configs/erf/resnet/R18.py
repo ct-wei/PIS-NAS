@@ -1,6 +1,4 @@
-# Copyright (c) Alibaba, Inc. and its affiliates.
-# The implementation is also open-sourced by the authors, and available at
-# https://github.com/alibaba/lightweight-neural-architecture-search.
+
 
 work_dir = './save_model/R18_erf_be_ds/'
 log_level = 'INFO'  # INFO/DEBUG/ERROR

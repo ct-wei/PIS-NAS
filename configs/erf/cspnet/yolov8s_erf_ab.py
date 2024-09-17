@@ -1,8 +1,6 @@
-# Copyright (c) Alibaba, Inc. and its affiliates.
-# The implementation is also open-sourced by the authors, and available at
-# https://github.com/alibaba/lightweight-neural-architecture-search.
 
-work_dir = './save_model/yolov8s_erf_be/'
+
+work_dir = './save_model/yolov8s_erf_alation/'
 log_level = 'INFO'  # INFO/DEBUG/ERROR
 log_freq = 1000
 
@@ -31,7 +29,7 @@ model = dict(
 budgets = [
     dict(type = "flops", budget = 40e8),
     dict(type = "model_size", budget= 4.8e6),
-    dict(type = "bottleneck_entropy", budget= -8.8),
+    # dict(type = "bottleneck_entropy", budget= -8.8),
 ]
 
 """ Score config """

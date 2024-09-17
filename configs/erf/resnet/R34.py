@@ -1,8 +1,6 @@
-# Copyright (c) Alibaba, Inc. and its affiliates.
-# The implementation is also open-sourced by the authors, and available at
-# https://github.com/alibaba/lightweight-neural-architecture-search.
 
-work_dir = './save_model/R34_erf_be_weight_ds/'
+
+work_dir = './save_model/R34_erf_be/'
 log_level = 'INFO'  # INFO/DEBUG/ERROR
 log_freq = 1000
 
@@ -33,10 +31,10 @@ budgets = [
 score = dict(
     type='erfnas',
     depth_scales=[1, 2, 2, 1],
-    depth_penalty_ratio=5.,
+    depth_penalty_ratio=8.,
     in_channels=model['structure_info'][0]['in'],
     image_size=image_size,
-    weights=[0, 0, 0, 1],
+    weights=[0, 1, 1, 1],
     threshold=0.1,
 
     

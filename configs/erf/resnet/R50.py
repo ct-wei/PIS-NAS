@@ -1,8 +1,6 @@
-# Copyright (c) Alibaba, Inc. and its affiliates.
-# The implementation is also open-sourced by the authors, and available at
-# https://github.com/alibaba/lightweight-neural-architecture-search.
 
-work_dir = './save_model/R34_erf_be/'
+
+work_dir = './save_model/R50_erf_be/'
 log_level = 'INFO'  # INFO/DEBUG/ERROR
 log_freq = 1000
 
@@ -24,8 +22,8 @@ model = dict(
 
 """ Budget config """
 budgets = [
-    dict(type = "flops", budget = 3.68e9),
-    dict(type = "model_size", budget = 21.80e6),
+    dict(type = "flops", budget = 4.13e9),
+    dict(type = "model_size", budget = 25.55e6),
     dict(type = "bottleneck_entropy", budget= -8.0)
     ]
 

@@ -1,8 +1,6 @@
-# Copyright (c) Alibaba, Inc. and its affiliates.
-# The implementation is also open-sourced by the authors, and available at
-# https://github.com/alibaba/lightweight-neural-architecture-search.
 
-work_dir = './save_model/yolov8l_erf_be/'
+
+work_dir = './save_model/yolov8n_erf_be/'
 log_level = 'INFO'  # INFO/DEBUG/ERROR
 log_freq = 1000
 
@@ -15,23 +13,23 @@ maximum_channel = 1024
 model = dict(
     type = 'CnnNet',
     structure_info = [
-        {'class': 'ConvKXBNRELU', 'act': 'silu', 'in': 3, 'out': 64, 's': 2, 'k': 3}, # 0
+        {'class': 'ConvKXBNRELU', 'act': 'silu', 'in': 3, 'out': 16, 's': 2, 'k': 3}, # 0
+        {'class': 'ConvKXBNRELU', 'act': 'silu', 'in': 16, 'out': 32, 's': 2, 'k': 3},
+        {'class': 'C2f', 'act': 'silu', 'in': 32, 'out': 32, 's': 1, 'k': 3, 'n': 1}, # 2
+        {'class': 'ConvKXBNRELU', 'act': 'silu', 'in': 32, 'out': 64, 's': 2, 'k': 3},
+        {'class': 'C2f', 'act': 'silu', 'in': 64, 'out': 64, 's': 1, 'k': 3, 'n': 2}, # 4
         {'class': 'ConvKXBNRELU', 'act': 'silu', 'in': 64, 'out': 128, 's': 2, 'k': 3},
-        {'class': 'C2f', 'act': 'silu', 'in': 128, 'out': 128, 's': 1, 'k': 3, 'n': 3}, # 2
+        {'class': 'C2f', 'act': 'silu', 'in': 128, 'out': 128, 's': 1, 'k': 3, 'n': 2}, # 6
         {'class': 'ConvKXBNRELU', 'act': 'silu', 'in': 128, 'out': 256, 's': 2, 'k': 3},
-        {'class': 'C2f', 'act': 'silu', 'in': 256, 'out': 256, 's': 1, 'k': 3, 'n': 6}, # 4
-        {'class': 'ConvKXBNRELU', 'act': 'silu', 'in': 256, 'out': 512, 's': 2, 'k': 3},
-        {'class': 'C2f', 'act': 'silu', 'in': 512, 'out': 512, 's': 1, 'k': 3, 'n': 6}, # 6
-        {'class': 'ConvKXBNRELU', 'act': 'silu', 'in': 512, 'out': 512, 's': 2, 'k': 3},
-        {'class': 'C2f', 'act': 'silu', 'in': 512, 'out': 512, 's': 1, 'k': 3, 'n': 3}, # 8
+        {'class': 'C2f', 'act': 'silu', 'in': 256, 'out': 256, 's': 1, 'k': 3, 'n': 1}, # 8
     ]
 )
 
 """ Budget config """
 budgets = [
-    dict(type = "flops", budget = 27.4e9),
-    dict(type = "model_size", budget= 19.2e6),
-    dict(type = "bottleneck_entropy", budget= -9.01)
+    dict(type = "flops", budget = 10e8),
+    dict(type = "model_size", budget= 1.4e6),
+    dict(type = "bottleneck_entropy", budget= -8.3)
 ]
 
 """ Score config """
@@ -52,6 +50,7 @@ space = dict(
     type='space_c2f',
     image_size=image_size,
     maximum_channel=maximum_channel,
+    # channel_range_list=[None, None, [48, 96], None, [96, 192],  None, [192, 384], None, [384, 768]],
     kernel_size_list=[3])
 
 """ Search config """
