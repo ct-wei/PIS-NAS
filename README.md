@@ -13,13 +13,13 @@ Chentian Wei<sup>1,2</sup>, [Ao Li](https://liaosite.github.io/)<sup>1</sup>, Le
 
 *: Corresponding Author. Email: dongle@xidian.edu.cn
 
-Code is now available. Usage is coming soon.
+Code and Usage is now available.
 ## Usage
 To use this repository, you need to follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/ChentianWei/PIS-NAS.git
+git clone https://github.com/ct-wei/PIS-NAS.git
 ```
 
 2. Install the required packages:
