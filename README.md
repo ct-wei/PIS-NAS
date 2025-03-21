@@ -3,7 +3,7 @@
 ## Introduction
 This repository is the official implementation  of "PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection". 
 
-Chentian Wei<sup>1,2</sup>, [Ao Li](https://liaosite.github.io/)<sup>1</sup>, Lei Pu<sup>3</sup>, [Le Dong](https://faculty.xidian.edu.cn/DL4/zh_CN/index/430205/list/index.htm) <sup>1\*</sup>
+[Chentian Wei](https://thuname.github.io/lab-website/members/weichentian.html)<sup>1,2</sup>, [Ao Li](https://liaosite.github.io/)<sup>1</sup>, Lei Pu<sup>3</sup>, [Le Dong](https://faculty.xidian.edu.cn/DL4/zh_CN/index/430205/list/index.htm) <sup>1\*</sup>
 
 <sup>1</sup>School of Artificial Intelligence, Xidian University
 
