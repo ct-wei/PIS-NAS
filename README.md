@@ -1,9 +1,9 @@
-# PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection
+# [ICME2025]PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection
 
 ## Introduction
 This repository is the official implementation  of "PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection". 
 
-Chentian Wei<sup>1,2</sup>, [Ao Li](https://liaosite.github.io/)<sup>1</sup>, Lei Pu<sup>3</sup>, [Le Dong](https://faculty.xidian.edu.cn/DL4/zh_CN/index/430205/list/index.htm) <sup>1\*</sup>, [Weisheng Dong](https://see.xidian.edu.cn/faculty/wsdong/)<sup>1</sup>
+Chentian Wei<sup>1,2</sup>, [Ao Li](https://liaosite.github.io/)<sup>1</sup>, Lei Pu<sup>3</sup>, [Le Dong](https://faculty.xidian.edu.cn/DL4/zh_CN/index/430205/list/index.htm) <sup>1\*</sup>
 
 <sup>1</sup>School of Artificial Intelligence, Xidian University
 
