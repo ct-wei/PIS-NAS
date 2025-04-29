@@ -35,11 +35,14 @@ python tools/search.py configs/erf/cspnet/yolov8n_erf.py
 ## Citation
 If you find this useful, please support us by citing them.
 ```
-@inproceedings{,
-	title = {PIS-NAS: Pyramid Information System Based Neural Architecture Search for Object Detection},
-	author = {Wei, Chentian and Li, Ao and Pu, Lei and Dong, Le and Dong, Weisheng},
-	booktitle = {},
-	year = {},
-	url = {}
-}
+@INPROCEEDINGS{wei25pisnas,
+  author={Wei,Chentian and Li,Ao and Pu,Lei and Dong,Le},
+  booktitle={2025 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  title={PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Object detection, Neural Architecture Search,Training-free, Information Theory},
+  doi={}}
 ```
