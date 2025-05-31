@@ -1,4 +1,4 @@
-# [ICME2025]PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection
+# [ICME2025 Oral]PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection
 
 ## Introduction
 This repository is the official implementation  of "PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection". 
