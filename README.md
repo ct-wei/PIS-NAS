@@ -3,7 +3,9 @@
 
 📌 [View Full PDF](PIS_NAS.pdf)  
 
-![PDF Preview](https://github.com/ct-wei/PIS-NAS/blob/main/PIS_NAS.pdf)
+<div align="center">
+<img src="https://github.com/ct-wei/PIS-NAS/blob/main/PIS_NAS.png"/>
+</div>
 
 
 ## Introduction
