@@ -3,6 +3,11 @@
 
 📌 [View Full PDF](PIS_NAS.pdf)  
 
+<object data="PIS_NAS.pdf" type="application/pdf" width="100%" height="600px">
+    <embed src="PIS_NAS.pdf" width="100%" height="600px">
+        This browser does not support PDFs. <a href="PIS_NAS.pdf">Download instead</a>
+    </embed>
+</object>
 
 
 ## Introduction
