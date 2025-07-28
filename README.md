@@ -3,7 +3,7 @@
 
 📌 [View Full PDF](PIS_NAS.pdf)  
 
-![PDF Preview](https://mozilla.github.io/pdf.js/web/viewer.html?file=https://github.com/ct-wei/PIS-NAS/blob/main/PIS_NAS.pdf)
+![PDF Preview](https://github.com/ct-wei/PIS-NAS/blob/main/PIS_NAS.pdf)
 
 
 ## Introduction
