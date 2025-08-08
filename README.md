@@ -39,7 +39,7 @@ If you find this useful, please support us by citing them.
 ```
 @INPROCEEDINGS{wei25pisnas,
   author={Wei,Chentian and Li,Ao and Pu,Lei and Dong,Le},
-  booktitle={2025 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  booktitle={}, 
   title={PIS-NAS: Pyramid Information System-Based Neural Architecture Search for Object Detection}, 
   year={2025},
   volume={},
